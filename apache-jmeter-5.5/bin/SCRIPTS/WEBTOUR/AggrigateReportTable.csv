@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1677414169024,186,DeleteTicket_T01_HomePage,200,"Number of samples in transaction : 5, number of failing samples : 0",TicketDeletting 1-1,,true,,6112,2211,1,1,null,0,3,1
+1677414169025,5,-14 /WebTours/index.htm,200,OK,TicketDeletting 1-1,text,true,,664,378,1,1,http://192.168.0.103:1080/WebTours/index.htm,5,0,1
+1677414169031,1,-15 /WebTours/header.html,200,OK,TicketDeletting 1-1,text,true,,1007,435,1,1,http://192.168.0.103:1080/WebTours/header.html,1,0,0
+1677414169033,58,-16 /cgi-bin/welcome.pl,200,OK,TicketDeletting 1-1,text,true,,1025,446,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=true,56,0,0
+1677414169091,50,-20 /WebTours/home.html,200,OK,TicketDeletting 1-1,text,true,,1659,474,1,1,http://192.168.0.103:1080/WebTours/home.html,50,0,0
+1677414169141,72,-21 /cgi-bin/nav.pl,200,OK,TicketDeletting 1-1,text,true,,1757,478,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?in=home,70,0,0
+1677414175271,267,DeleteTicket_T02_Login,200,"Number of samples in transaction : 3, number of failing samples : 0",TicketDeletting 1-1,,true,,3770,1878,1,1,null,0,2,1
+1677414175272,51,-24 /cgi-bin/login.pl,200,OK,TicketDeletting 1-1,text,true,,863,695,1,1,http://192.168.0.103:1080/cgi-bin/login.pl,49,0,1
+1677414175323,99,-25 /cgi-bin/nav.pl,200,OK,TicketDeletting 1-1,text,true,,1749,594,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?page=menu&in=home,97,0,0
+1677414175423,117,-26 /cgi-bin/login.pl,200,OK,TicketDeletting 1-1,text,true,,1158,589,1,1,http://192.168.0.103:1080/cgi-bin/login.pl?intro=true,114,0,0
+1677414180876,280,DeleteTicket_T03_ClickFlights,200,"Number of samples in transaction : 3, number of failing samples : 0",TicketDeletting 1-1,,true,,7113,1831,1,1,null,0,2,1
+1677414180876,57,-32 /cgi-bin/welcome.pl,200,OK,TicketDeletting 1-1,text,true,,844,608,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?page=search,54,0,1
+1677414180933,105,-33 /cgi-bin/nav.pl,200,OK,TicketDeletting 1-1,text,true,,1749,611,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?page=menu&in=flights,103,0,0
+1677414181039,118,-34 /cgi-bin/reservations.pl,200,OK,TicketDeletting 1-1,text,true,,4520,612,1,1,http://192.168.0.103:1080/cgi-bin/reservations.pl?page=welcome,115,0,0
+1677414194495,60,DeleteTicket_T04_SelectRandomArrivalDepartureCities,200,"Number of samples in transaction : 2, number of failing samples : 0",TicketDeletting 1-1,,true,,3577,953,1,1,null,0,1,1
+1677414194495,60,-38 /cgi-bin/reservations.pl,200,OK,TicketDeletting 1-1,text,true,,2714,953,1,1,http://192.168.0.103:1080/cgi-bin/reservations.pl,57,0,1
+1677414194556,0,Debug Sampler,200,OK,TicketDeletting 1-1,text,true,,863,0,1,1,null,0,0,0
+1677414200994,67,DeleteTicket_T05_SelectRandomFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",TicketDeletting 1-1,,true,,2998,842,1,1,null,0,0,2
+1677414200994,67,-43 /cgi-bin/reservations.pl,200,OK,TicketDeletting 1-1,text,true,,2998,842,1,1,http://192.168.0.103:1080/cgi-bin/reservations.pl,64,0,2
+1677414206616,61,DeleteTicket_T06_PaymentDetails,200,"Number of samples in transaction : 1, number of failing samples : 0",TicketDeletting 1-1,,true,,2865,1012,1,1,null,0,0,2
+1677414206616,61,-44 /cgi-bin/reservations.pl,200,OK,TicketDeletting 1-1,text,true,,2865,1012,1,1,http://192.168.0.103:1080/cgi-bin/reservations.pl,59,0,2
+1677414212013,275,DeleteTicket_T07_ClickItinerary,200,"Number of samples in transaction : 3, number of failing samples : 0",TicketDeletting 1-1,,true,,5465,1757,1,1,null,0,1,1
+1677414212014,51,-46 /cgi-bin/welcome.pl,200,OK,TicketDeletting 1-1,text,true,,819,590,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?page=itinerary,49,0,1
+1677414212065,115,-47 /cgi-bin/nav.pl,200,OK,TicketDeletting 1-1,text,true,,1749,592,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?page=menu&in=itinerary,112,0,0
+1677414212180,109,-48 /cgi-bin/itinerary.pl,200,OK,TicketDeletting 1-1,text,true,,2897,575,1,1,http://192.168.0.103:1080/cgi-bin/itinerary.pl,106,0,0
+1677414217454,57,DeleteTicket_T08_DeleteTicket,200,"Number of samples in transaction : 1, number of failing samples : 0",TicketDeletting 1-1,,true,,1155,747,1,1,null,0,0,2
+1677414217454,57,-53 /cgi-bin/itinerary.pl,200,OK,TicketDeletting 1-1,text,true,,1155,747,1,1,http://192.168.0.103:1080/cgi-bin/itinerary.pl,55,0,2
+1677414224187,153,DeleteTicket_T09_SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",TicketDeletting 1-1,,true,,2781,1062,1,1,null,0,0,2
+1677414224187,50,-54 /cgi-bin/welcome.pl,200,OK,TicketDeletting 1-1,text,true,,1026,587,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=1,47,0,2
+1677414224237,103,-55 /cgi-bin/nav.pl,200,OK,TicketDeletting 1-1,text,true,,1755,475,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?in=home,100,0,0

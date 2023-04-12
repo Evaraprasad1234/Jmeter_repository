@@ -1,0 +1,18 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1681204392073,286,UserReg_T01_Homepage,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,6103,2211,1,1,null,0,142,44
+1681204392208,56,-13 /WebTours/index.htm,200,OK,Thread Group 1-1,text,true,,664,378,1,1,http://192.168.0.103:1080/WebTours/index.htm,56,0,44
+1681204392265,2,-15 /WebTours/header.html,200,OK,Thread Group 1-1,text,true,,1007,435,1,1,http://192.168.0.103:1080/WebTours/header.html,2,0,0
+1681204392268,109,-16 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,1025,446,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=true,108,0,0
+1681204392380,46,-24 /WebTours/home.html,200,OK,Thread Group 1-1,text,true,,1659,474,1,1,http://192.168.0.103:1080/WebTours/home.html,46,0,0
+1681204392428,73,-23 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1748,478,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?in=home,71,0,0
+1681204399227,60,UserReg_T02_ClickSignupNow,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2670,492,1,1,null,0,1,4
+1681204399228,60,-44 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,2670,492,1,1,http://192.168.0.103:1080/cgi-bin/login.pl?username=&password=&getInfo=true,58,0,4
+1681204406851,121,UserReg_T03_SubmitDetails,200,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2976,752,1,1,null,0,1,47
+1681204406852,121,-56 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Thank you/,2976,752,1,1,http://192.168.0.103:1080/cgi-bin/login.pl,119,0,47
+1681204413434,373,UserReg_T04_ClickContinue,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3727,1437,1,1,null,0,2,3
+1681204413435,79,-57 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,824,470,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?page=menus,77,0,3
+1681204413514,162,-58 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1749,486,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?page=menu&in=home,160,0,0
+1681204413676,132,-59 /cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,1154,481,1,1,http://192.168.0.103:1080/cgi-bin/login.pl?intro=true,130,0,0
+1681204419868,259,UserReg_T05_SignOff,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,2779,960,1,1,null,0,2,4
+1681204419869,115,-64 /cgi-bin/welcome.pl,200,OK,Thread Group 1-1,text,true,,1026,485,1,1,http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=1,113,0,4
+1681204419985,144,-65 /cgi-bin/nav.pl,200,OK,Thread Group 1-1,text,true,,1753,475,1,1,http://192.168.0.103:1080/cgi-bin/nav.pl?in=home,141,0,0

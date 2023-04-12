@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="contile.services.mozilla.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1482" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT contile.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="302" it="0" lt="0" ct="264" ts="1676635917547" s="true" lb="-4 /chains/remote-settings.content-signature.mozilla.org-2023-02-28-18-04-20.chain" rc="304" rm="Not Modified" tn="" dt="" de="" by="189" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 17 Feb 2023 12:03:33 GMT
+Age: 506
+ETag: &quot;7b922915ebf1fa3639b333f994c74f24&quot;
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+If-Modified-Since: Mon, 09 Jan 2023 18:04:21 GMT
+If-None-Match: &quot;7b922915ebf1fa3639b333f994c74f24&quot;
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Host: content-signature-2.cdn.mozilla.net
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: */*
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-02-28-18-04-20.chain</java.net.URL>
+</httpSample>
+<httpSample t="226" it="0" lt="226" ct="160" ts="1676635918605" s="true" lb="-7 /update/6/Firefox/110.0/20230214051806/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2604%20(x64)/ISET:SSE4_2,MEM:3961/default/default/update.xml" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="482" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 42
+Rule-ID: 145
+Rule-Data-Version: 487
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;
+X-Proxy-Cache-Status: MISS
+Via: 1.1 google
+Date: Fri, 17 Feb 2023 12:03:28 GMT
+Content-Type: text/xml; charset=utf-8
+Age: 512
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: */*
+Host: aus5.mozilla.org
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;updates&gt;
+&lt;/updates&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">_ga=GA1.1.1366010769.1657951520; _ga_MQ7767QQQW=GS1.1.1672450345.2.1.1672450368.0.0.0</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://aus5.mozilla.org/update/6/Firefox/110.0/20230214051806/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2604%20(x64)/ISET:SSE4_2,MEM:3961/default/default/update.xml?force=1</java.net.URL>
+</httpSample>
+<httpSample t="470" it="0" lt="469" ct="198" ts="1676635918413" s="true" lb="-6 /submit/messaging-system/undesired-events/1/51d7cd3a-9c57-4bb2-bc3a-3273c23de85b" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="806" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:12:00 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: Fri, 17 Feb 2023 12:11:57 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Content-Encoding: gzip
+Accept: */*
+Host: incoming.telemetry.mozilla.org
+Content-Type: application/json; charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 550
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+U��N�0&#x10;E���&#xe;8NIBw]T�&#x0;�&#x11;�hbO&#x1b;��&#x1d;��KU���(�.����;�	��&#x14;�@.E�����&#x0;ڻd�Ѧ+īӀ�D&#x1;&#x12;��;t{����&#x1f;&#x13;,��i&#x3;:݉�x&#xc;�i!��&#x1e;�J*U&#x15;&#x7f;�����Z�&#x11;&#x13;��&#xe;�&#x6;�&#x3;�`�	#A&amp;s~�&#x3;&#x1d;u�&apos;&#x12;&#x13;c{��&apos;���W-&#x16;�D!Z�X�2�$Y���y������&#x1e;��\V�������g����fF&#xd;&#x14;#Oi��{��|3�
+]�&#x7b9;�&#x14;��&#x19;F��&#xb;��x���PR�ReK���&#x17;&#x1c;��&#x18;&#x18;��&#xf;�V�BW���&#x14;��eY&#x12;��*&#x7;B]�29妜��&#xd;(&#x17;�I�&#x1;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/51d7cd3a-9c57-4bb2-bc3a-3273c23de85b</java.net.URL>
+</httpSample>
+<httpSample t="425" it="0" lt="424" ct="127" ts="1676635918653" s="true" lb="-8 /submit/firefox-desktop/pageload/1/03cfa3a1-bfd3-4ae5-8bbd-a21b27ccc349" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="851" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:12:00 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:11:57 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 762
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�mR�j�0&#x10;�&#x17;]3&#x1a;$���&#x1e;&#x17;�&#x1;K`&#xf;�&quot;d�=#⑴R;&#x1b;&#x13;��ii&#x1e;$&#x10;#lܪ*����yc&#xf;��ٱ��E���r�&quot;�
+�	X�
+Q�\&#x14;\�&#xf;����N�})؎��&gt;�T�	����Ȓ�O�g&#xf;�h&#x16;c:&#x13;u|䣳h�jp�q�#�3B�&#x7;&gt;&#x1e;�=&#x0;&#xf;nY܊�&#x12;�3&#x4;m�cR�&#x0;��&#x18;t��|j̚ӰF~�䞓R:��Dۓn`,+��A&#x2;���]SU�j�&#x6;Y&#xe;U״앞&#x1d;&#x1b;&#x17;C��U&#x8;&#xb;�&#x0;æ�����,I���n_�9�	&#x11;UX��4^&#x1c;*�h�ln�h�U����&#x0;�&#x4;u�K}2�/zSO&#x10;��&#x6;J)��&#x15;ƣA&#x18;q&#xd;I��kTSQ����&#xb;������D!+Q�N4�@���N�&#x7f;r&amp;����Vp!i=&#x8;��u�ߌ���sv&#x7f;�&#x5;ʑ�=y�&#xb;���&#x7;&#x17;6&#x12;��g&#x12;�:���&#x7;P�������u~�뎶��&gt;]&quot;5�g&apos;zg#\A-�Τs�?~����&#x1b;����&#xd;��&#x19;��&#x2;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/03cfa3a1-bfd3-4ae5-8bbd-a21b27ccc349</java.net.URL>
+</httpSample>
+<httpSample t="412" it="0" lt="411" ct="82" ts="1676635919117" s="true" lb="-9 /submit/firefox-desktop/newtab/1/c1a9d30d-d637-4a83-9a85-f5382fe522fe" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="788" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:12:01 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:11:57 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 721
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�mQ�n� &#x10;�&#x17;^&#x1b;,�&#xd;&#x5ff;qzt&#x1e;&#x11;�k&#x7;��&#xf;K�FU��k�Ҫ��l&#x61d;�&#x19;�|�ŅY�0E�&#x7f;2������1�&amp;e��&#x1;X�JQV\�\�&#x17;���z&#x12;M_	�c&#x10;�ǘZ�1	&#xc;�@&#x8;&#x1b;&#xf;K&#xc;&#x10;2ɹ��;f��&lt;/�&#x19;&lt;&#x1c; ����U&#xf;G�G&#x1a;kd�&#x15;%&#x11;�d�.��Ǵ
+~t�nk�G��?&#x17;���+lY��p��� ��ĥ&#x14;��vo̫eQ�Z4�&#x13;�i�&amp;&#x4;��Nd� l
+?�.D7�+�&#xab19;�l������&#x18;n�	�&#x1c;�}na&#x18;���Ȧ�G�W��Y	.$�&#x17;!��&lt;m_&#x2;N.a��&#x18;n`rZr��l�k�孛r&#x16;���&#x16;��&#x16;�=����&#x3;,f&#x6;mi~��D&#x1c;&#x10;��a$�+�Gk&lt;l&#x1d;���w��{4J�C�����&#x15;&#x17;�&lt;�@�&#x15;c�Q߀}NG�&#x13;&quot;��&#x15;��K���&#x7f;W羅��R�cr��1ΡF7&#x7;�9�:&#x19;�p&gt;��&#x0;&#x15;&#x13;�b�&#x2;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/c1a9d30d-d637-4a83-9a85-f5382fe522fe</java.net.URL>
+</httpSample>
+<httpSample t="634" it="0" lt="633" ct="206" ts="1676635919562" s="true" lb="-10 /submit/firefox-desktop/baseline/1/cdd85b69-7010-4e65-b2b9-98120d05c8dd" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="748" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:12:01 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:11:57 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 966
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�mS�n�0&#x10;�&#x17;�6F6&#x18;C�&#x7;�^i&#x1f;��&#xc;�UbXۤ�����ɭ��&#x10;&#x17;�̙3g�&#x17;6;��&#x1f;&amp;�����خ�z�b�����v�&#x14;e�E�e�.�]U��zW	�a���&#x18;%&#x1f;��&#x10;&apos;O&#x8;�ɝ0G}�&#x18;(ʧ��&amp;�&#x1f;�N&gt;9��t���-�!a�	&#xc;�&#x7;�{�a&#x1a;�iI\�&#x1c;c&#x2;x{ ����&lt;&#x5;Xi�s����,�__��̔���i�&#x7;��R�&#xf;F&quot;WCU�V+ŕ&#x16;��2��&#xd;��k���(��U�&#x11;��¹��Gg&#x16;7f�Z&#x16;mQ�&apos;:/6��&#x1;�捪[�$&#x0;I&#x1e;�K�حFc&#x1a;SS&#x8;�s&#x5fb;8�p�N&#x18;�[m�R&#x14;�G&#x8;��&#x12;ڴ�\�W�;�h}�?�7,1�&#x15;�ƈR*Q�V��f6��Hہʀ�+&#x11;��u��&gt;�Q�&#xb;1ua�]&#xf;��ᒋ�K����/���B��.�n���&apos;#�Sή�^�lʅ��&#x7;{.&#x1e;&gt;&#x16;?-&#x3;e&#x7;UB�{e,W&#x0;&#x15;�na�U�kT&#x3;4ƚ�;�������i&#x8;2�
+��	FG�Ȗ&quot;�x��b�.%\s&#x1b;*yt�d�&#xd;���g&apos;&#x7f;ΰ�q&#x2;����\�u�_�&gt;&#xd;:LK�eл��&#x7f;���4&#x13;�[&#xc;&#x5;�=%�CX\O&#x5;�&quot;�A�ԛW�%�k��������&#x12;�&#x3;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/cdd85b69-7010-4e65-b2b9-98120d05c8dd</java.net.URL>
+</httpSample>
+<httpSample t="6187" it="0" lt="0" ct="904" ts="1676635918120" s="false" lb="-5 /" rc="Non HTTP response code: org.apache.http.NoHttpResponseException" rm="Non HTTP response message: push.services.mozilla.com:443 failed to respond" tn="" dt="text" de="" by="1708" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: 4Vx6lwKxIBIZEhv+/DCo8Q==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: websocket
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.NoHttpResponseException: push.services.mozilla.com:443 failed to respond&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="6113" it="0" lt="0" ct="858" ts="1676635929336" s="false" lb="-11 /" rc="Non HTTP response code: org.apache.http.NoHttpResponseException" rm="Non HTTP response message: push.services.mozilla.com:443 failed to respond" tn="" dt="text" de="" by="1708" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: EkBF0sCMwiy5lvkk21TuhA==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: websocket
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.NoHttpResponseException: push.services.mozilla.com:443 failed to respond&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="6028" it="0" lt="0" ct="775" ts="1676635945492" s="false" lb="-12 /" rc="Non HTTP response code: org.apache.http.NoHttpResponseException" rm="Non HTTP response message: push.services.mozilla.com:443 failed to respond" tn="" dt="text" de="" by="1708" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: eCZO9TgSbHnA1g8wCu+28w==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: websocket
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.NoHttpResponseException: push.services.mozilla.com:443 failed to respond&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="firefox.settings.services.mozilla.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1482" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="396" it="0" lt="394" ct="106" ts="1676636085149" s="true" lb="-5 /submit/messaging-system/undesired-events/1/7f2530a0-9cd7-4fd4-a937-912ddbeadcae" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="952" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:47 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: Fri, 17 Feb 2023 12:14:44 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Content-Encoding: gzip
+Accept: */*
+Host: incoming.telemetry.mozilla.org
+Content-Type: application/json; charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 550
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+U��N�0&#x10;E���&#xe;8NIBw]T�&#x0;�&#x11;�hbO&#x1b;��&#x1d;��KU���(�.����;�	��&#x14;�@.E�����&#x0;ڻd�Ѧ+īӀ�D&#x1;&#x12;��;t{����&#x1f;&#x13;,��i&#x3;:݉�x&#xc;�i!��&#x1e;�J*U&#x15;&#x7f;�����Z�&#x11;&#x13;��&#xe;�&#x6;�&#x3;�`�	#A&amp;s~�&#x3;&#x1d;u�&apos;&#x12;&#x13;c{��&apos;���W-&#x16;�D!Z�X�2�$Y���y������&#x1e;��\V�������g����fF&#xd;&#x14;#Oi��{��|3�
+]�&#x7b9;�&#x14;��&#x19;F��&#xb;��x���PR�ReK���&#x17;&#x1c;��&#x18;&#x18;��&#xf;�V�BW���&#x14;��eY&#x12;��*&#x7;B]�29妜��&#xd;(&#x17;�I�&#x1;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/7f2530a0-9cd7-4fd4-a937-912ddbeadcae</java.net.URL>
+</httpSample>
+<httpSample t="809" it="0" lt="701" ct="157" ts="1676636084760" s="true" lb="-4 /v1/tiles" rc="200" rm="OK" tn="" dt="text" de="" by="1476" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 17 Feb 2023 12:14:47 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+cache-control: private, max-age=580, stale-if-error=10662
+access-control-allow-credentials: true
+vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+access-control-expose-headers: cache-control, content-type
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Host: contile.services.mozilla.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: */*
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;tiles&quot;:[{&quot;id&quot;:74357,&quot;name&quot;:&quot;Amazon&quot;,&quot;url&quot;:&quot;https://www.amazon.in/?tag=admpdesktopin-21&amp;ref=pd_sl_bc0f02ae2d102ce52ca7ed9fefc523022ca78b8a7712bb0cdb1e1dda&amp;mfadid=adm&quot;,&quot;click_url&quot;:&quot;https://bridge.sfo1.ap01.net/ctp?version=16.0.0&amp;key=1676633482401000000.1&amp;ci=1676633482965.12791&amp;ctag=pd_sl_bc0f02ae2d102ce52ca7ed9fefc523022ca78b8a7712bb0cdb1e1dda&quot;,&quot;image_url&quot;:&quot;https://contile-images.services.mozilla.com/obgoOYObjIFea_bXuT6L4LbBJ8j425AD87S1HMD3BWg.9991.jpg&quot;,&quot;image_size&quot;:200,&quot;impression_url&quot;:&quot;https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Qxm4QfZ4pLY4pbXfpbWfpbW7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlXfplZ7ncqIr7VjGbuiF2zfCfdfC2X4QDnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCxkfYIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy&quot;},{&quot;id&quot;:73588,&quot;name&quot;:&quot;Trivago&quot;,&quot;url&quot;:&quot;https://www.trivago.in/?cip=91030227040912&amp;cip_tc=12891-101-101_privacy_1676633482401000000&amp;cip_ext_id=1676633482401000000&amp;sOrderBy=random&amp;mfadid=adm&quot;,&quot;click_url&quot;:&quot;https://bridge.sfo1.admarketplace.net/ctp?version=16.0.0&amp;key=1676633482401000000.2&amp;ci=1676633482965.12791&amp;ctag=1676633482401000000&quot;,&quot;image_url&quot;:&quot;https://contile-images.services.mozilla.com/Eqfx-dXqpGIFV5Tmm1gv8XVA8ATij7ohWbjS9ic6ZsA.15089.jpg&quot;,&quot;image_size&quot;:200,&quot;impression_url&quot;:&quot;https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Qxm4QfZ4pLY4pbXfpbWfpbW7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Zfd1pLnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Zfd1pLnHmcux%3DcvImauiF2zfQl%2B1pqZ7ncqIr7VjGbuiF2zfCDkfCxZfpxnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCLW4YIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://contile.services.mozilla.com/v1/tiles</java.net.URL>
+</httpSample>
+<httpSample t="293" it="0" lt="292" ct="48" ts="1676636085674" s="true" lb="-7 /submit/firefox-desktop/newtab/1/e222e290-310d-4643-aa66-0731e778eae5" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="735" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:47 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 705
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uR[n� &#x10;�&#xb;�&#x19;,��&#x15;_c��O�q{&#x6;�&#x1;/�lv&#x14;���x&#x1e;�D�����*
+��l�AY?&#x5;ֿ3�߬ߗr�0�T�&apos;`=+E���}�m_�D��&#x5;�1��7�ꁉ�1xB�p��&#x7;�H�&amp;��q��{UO��&#x4;)^&#x14;��j8[7&#x12;��EW�lC�b�&#x19;=i��;^I���&amp;�rh�s&#x3;��&#xe;5Q&amp;&#x1b;1�x�j�����y�[u�}��
+.$�&#x17;!�u=�O&#x2;�yV樽&#x7;G�Hf5­~7�S&#x10;��D-;��f4G���s���v�j�&#x1b;i�8;}Q&#x7f; �]#�R&#x14;Y*���{��&#x7f;Y?�7��夬�&#x1c;�&#x10;&#x2;��k�aF��&#x2;)k&#xc;&#x11;F&#x5;^&#xf;&#xe;�]�g�m�O�9�WH�E����gi�&#x1d;n��&#x19;�&#x12;�&#x10;-�gE&#xf;oI&#xf;&#x5;B&#xe;��%ߴHW0{���&#x4;�&gt;�2t&amp;�&#x10;/��;�1�&#x5;�&#x1d;�&#x1d;���V����.��&#xf;�J&#x8; �&#x2;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/e222e290-310d-4643-aa66-0731e778eae5</java.net.URL>
+</httpSample>
+<httpSample t="285" it="0" lt="283" ct="48" ts="1676636086273" s="true" lb="-8 /submit/firefox-desktop/pageload/1/c3469f8b-ce61-41b0-9ee1-6dd1ad348cb7" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="746" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:48 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 769
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uR�n�0&#x10;�&#x17;_3&#x1e;��&#x1;��&#x1e;Wڇ����Ud&#x19;hf�0�c7IP�&#x7f;O�y$9&#x4;!��U�vU��`�^[7z־�&#x4;&#xf;�U&#x1b;��D�h��ZV���ಾ�u��ص�`&#x1b;&#x6;n�&#x2;S\1&#x11;L�&#x10;��&#x1c;2�9@$�Ô{�I���&#xe;��-.&lt;-��fD�&#x1c;M���q{��O���+�9]4�?d�O�U&#x1c;��&#x10;p����&#x18;&#x8;8�
+�R	&gt;v&#x12;�&#x1a;�&#x1d;o*����&#x1;Yv��j��&#x12;�u�=vs�&#x1f;{�g��ɒ��*�	��q�i���l��f&apos;�Ͷ ��Ƅ:�N&#xf;&#x6;�&#xe;&#x15;\�\VWo|ҏ&#x10;�]��b�k&amp;�&#x7;���&#x1c;3빩t�r=&#x4;��p0Q9Rs��\&#x1f;l
+�Y&gt;�]�h�r�&#x1c;�(�&#x12;;وjmO�&#x7f;�&#xd;�)�r�]N+�Ղ&#xb;I�&#x10;��ެ_FN��)���&#x2;�H�&#x1e;&#x3;k&#x5;YD住&#xb;	P�#�:��G0{Г7�Ǆ�Z�&#xd;�����?i�T&lt;&#xd;���:A)x��}Ԩx@&#xc;��������&#x1b;&#x11;N&#x3;B�&#x2;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/c3469f8b-ce61-41b0-9ee1-6dd1ad348cb7</java.net.URL>
+</httpSample>
+<httpSample t="319" it="0" lt="318" ct="298" ts="1676636086283" s="true" lb="-9 /update/6/Firefox/110.0/20230214051806/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2604%20(x64)/ISET:SSE4_2,MEM:3961/default/default/update.xml" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="481" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 42
+Rule-ID: 145
+Rule-Data-Version: 487
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;
+X-Proxy-Cache-Status: HIT
+Via: 1.1 google
+Date: Fri, 17 Feb 2023 12:12:00 GMT
+Content-Type: text/xml; charset=utf-8
+Age: 168
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: */*
+Host: aus5.mozilla.org
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;updates&gt;
+&lt;/updates&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">_ga=GA1.1.1366010769.1657951520; _ga_MQ7767QQQW=GS1.1.1672450345.2.1.1672450368.0.0.0</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://aus5.mozilla.org/update/6/Firefox/110.0/20230214051806/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2604%20(x64)/ISET:SSE4_2,MEM:3961/default/default/update.xml?force=1</java.net.URL>
+</httpSample>
+<httpSample t="397" it="0" lt="395" ct="43" ts="1676636086594" s="true" lb="-10 /submit/firefox-desktop/newtab/1/910db03e-9bb0-44cc-8c69-d44894a30f89" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="753" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:48 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 710
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�}Q�n� &#x10;�&#x17;^&#x1b;,p|�&#x7f;c��G���A%�eHۨʿwp�ޤVB\f��9�ye����~
+�&#x7f;e&#x8;�Y��ݎa�1�d��zV�r�E�e� ۾�w�����&#x18;��&#x7;L����1xB�p\�&#x7;���&amp;v�1���yeO��&#x8;)�&#x15;��j8Y7RY-��(��&#x1a;P�N�N&#x7b7;�&#xb;I�A�~]w�N��FL*��&#x6;&amp;m%&#x17;-�ͻ*�,j��8}VO&#x10;Ѯ&#x12;�&#x14;Ŗ5&#x7;�=8�Fҥ&#x11;r&lt;��M`�)�/]�����f#D)+Q�N4�&#xc;H�&#x7f;֏�&#x19;��g�+�fD�o;�&apos;-&#x1b;�Vu�+�5��&#x4;\&#xe;��o`&#x18;ڡ��e���ult�s�yxNz(��2��9�3u&#x5;�&#x7;&#x7;#q� �p�E��+�&#x5;�&#x1d;�&#x19;��Of&#x1d;B 3|�Z�y�T &#xd;&#x15;C�Qa
+�&#x2;��M��	v&#x1b;&#x3a2;B;{�Y*��Ïܷ�&#x14;&#x16;$��S�&#x10;��7�&#x8;yR_����&#xd;�v&#x2;f�&#x2;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/910db03e-9bb0-44cc-8c69-d44894a30f89</java.net.URL>
+</httpSample>
+<httpSample t="316" it="0" lt="315" ct="43" ts="1676636087033" s="true" lb="-11 /submit/firefox-desktop/baseline/1/0ad747d5-add6-4e32-b3ba-d194f3e73dc7" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="744" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:48 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 1014
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uSێ�0&#x10;�&#x17;�n�l0��&#x7;}_��hl��Zb�m�&#x1b;E����n�U[dq��93gf����C��8���&quot;�b]��&#x1d;�	B�;!�X)ʊ��K�*u�䋨�J�&#x1d;C?�&#x7;S�1&#x1;!Ξ&#x10;`�;cf},&#x18;��S�A&#x13;�7ng��_]��x�Ø0�&#x4;��#�&#x3;�0OӼ&amp;�D�&#x0;�&#x1e;I�;x&#x13;O&#x1;2&#x4;}��(?&#x6;&#x2;&#xe;Р��&#x8d1;��Xռm��&#x11;��2�m4��e�n�;�5�ۃ��k���H�^��&#x13;�0�K&#x1f;��ެn�ajY�EIB3yc?�&#x1f;��H��,}v�q��@\����3��
+IQ�O���2������+Z.�(�&#x12;�lE�&#xf;�=��6�!��h��Q�{&amp;���&#x8;��Z�-W&#x12;�
+8&quot;�F�}��hS&#x13;e��&#xf;����k����*D����N�х����/0eUr��l&gt;����+���o;���uk#U&#x7;C��&#x0;&#x7;̽*���&#xd;�:��&#x17;�6F4v���4i�k�ue&#x13;&#x1e;�^�{c�gנ�J�|P�r&#x5;P��&#x1e;F^�M�j&#x4;m�ɉf&#xf;����&#x3;u�&#x17;g�&#x1c;�R&#x17;���㼆oV_�|���P&#x12;C�d�/����&gt;���R�̀�����ͺ��&lt;��u!��&#xc;��y&#x14;�&#x0;��o0�&#x3;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/0ad747d5-add6-4e32-b3ba-d194f3e73dc7</java.net.URL>
+</httpSample>
+<httpSample t="317" it="0" lt="316" ct="46" ts="1676636087368" s="true" lb="-12 /submit/firefox-desktop/newtab/1/b8e1a20b-b43f-429c-90ae-97261ce8b654" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="785" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:49 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 1390
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��T�n�0&#xc;�&#x17;�62$[�$&#x7f;��u��0&#x18;�L�B&#x1d;ɓ�A�&#x7f;&#x1f;e�i�&#x6;��60bX$&#xf;&#xf;&#xf;I=&amp;�6}�Mg��c��O���v�� \h��C�K2��f�U&#x5ec;���&#x16;��&amp;�&#x4;L���&#x3;�A&#xf;&#x3;�A�ƃ�ښ&#x6;c#��&#x8;&#xe;&#x11;L�@&#x10;��(k�6�&#xe;&#x7;�&#xf;F&#x11;�&#x5;p&#x4;c��&#x11;�&#x7;��0�)&#x10;Nc�t¨&#x1b;Lp�&lt;�&#x7;&apos;f��&#x18;9&#x1a;���&apos;�k�&#x1f;�b�o-�[Q��9%�d@x�&#x17;�.9&apos;��&#x2;X.y]V�&#x13;�6�&#x1a;4F&#x1d;u&#xb;0�&#x1e;�;4��m䤇�W��N3��i�C�&amp;Ӵ&quot;�be�V��G��g;�V�P��5�������ѢP�OmZ{����&#xe;\T4��4��q&lt;��}�&#x19;�`5-�ѩ&#x1b;&#x1d;@���T&#xf;uٔ|&#xd;��&#x1a;&#x18;��aE��z�j?&#xe;�p�iM�,DLU�Jt����EM8&#x13;&#x2;��&#x1;a�R�&#x12;��d��xQ)��~Kk1��5��G^&gt;��5�:hqD�&#x1c;&#x0;���`�&#xe;P�!���2�V�B8	��:&#xd;���}�uo�Oc�N&#xc;&#x1e;mG
+�c�N��i�e?&amp;&#x3;�B&#x1d;��&#x10;���&#x8;�:����\*&#x85;��v+:��e&#x1;�&#x13;�T2��Q&#x13;�G����*1�&#xe;�!?���Ǻ{m m�&#x13;�&#x10;��%Wom?&#x0;�$n�
+sc�0�&#x1e;&#x1a;���[w�&#x11;�B^c�Nߡ�&#x19;�&#xb;Һ�&#x17;p�F�ݲÿ����x&#x7f;��dGqB^�&#x17;��(�;Î`�=]To&apos;��IH\�]$&#x7f;$��i����.T�n˜T���v&#xc;e�j&quot;Q&#x16;Z����)&#x12;;�����s�_(���&#xb;�և	l�8h�3&#x19;3�輥�U&#x1f;�u	�+���۷��{�F�y�K�~��&#x1b;��%�@��&#x0;�O�:�/�&#x7f;��&#x7;H^��|&#x11;w��$ݲ&#x7f;��&#x1a;�?_�O��刺|2&#x1d;x|&#x8;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/b8e1a20b-b43f-429c-90ae-97261ce8b654</java.net.URL>
+</httpSample>
+<httpSample t="541" it="0" lt="539" ct="304" ts="1676636087722" s="true" lb="-13 /submit/firefox-desktop/newtab/1/7e614f7c-3d18-485a-8314-4bf2770bda6b" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="778" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:49 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 1185
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uT�n�0&#xc;�&#x17;��2d[��&#x7f;��u��0&#x18;�L�B&#x1d;ɓ�A�&#x7f;&#x1f;�i2��� ��9�1�&#x13;[��zcGǺ&#x13;&#xb;��ue!&#x1e;X��c&#x1f;�&#x1e;Y�
+Q�\&#x14;&lt;o&#x1e;��7Qu�`&#xf;&#xc;��&#x5;��b&lt;Bp�&#x10;&#x16;_&quot;�&gt;`&#x8;�ٞr&#x13;�낞&#x18;l&#xc;��&#x8;�kg����G&#x1e;�Vs&#x18;#zN�\?���{7�n�\���&lt;X�D&#x2;���&lt;z�h�K�њ�Z&#x3;?�l�&apos;�$�}��&#x1;jԥ&#x14;|T9r9�&#x15;ok)��&#x5;`^*��&#xd;{��&#x3;ӳ���o&#x11;g�c��&gt;&#xc;ϽZ͜��&lt;k��tF�C��j�&#x1;�Ŭ�����զ-��&lt;�5����G!����}�&#xf;�д&#x1a;F�k�Ȫ�2&#x7;��G�j��F�&#x1a;UQ
+,K?���p�&#xf;��I$&#x17;Y&quot;&#x4;��LD&#x1d;W��_ۺ�%�]�&#x5;_�Ĕ^�ř��چ���{�i&#x12;D�KQ孨7&quot;��2vp/��y�)�������&#x13;�q&#x2;}̮&gt;f�]�ԣ,��T�K���v0�+�#4J��&#x1b;��N��&lt;j��4̩&apos;���&#xf;�$`j6C;&#x19;�ـ#�s��=kM�M3r��p^h.����L�&#x1f;7&gt;P3�@��&#x1e;&#x17;��sн��́Pw��|�&#x1c;�io�杉��W|`���&#x18;3&#x13;�`&amp;�&#x3;M!�F���YX�&#xd;��Y��&#x1b;&#xc;��&#x1c;�E�[&#x2;MB�2��{�H&#x1b;���&#xe;��m�}��c���n�&#x1b;G�m%�`�3��&#x2;&#xe;��z��`H��̩�X��x&gt;�&#x1d;�JU\II3���&#x5;%��&#x16;o��&#x7f;��&#x1;�$a��&#x4;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/7e614f7c-3d18-485a-8314-4bf2770bda6b</java.net.URL>
+</httpSample>
+<httpSample t="326" it="0" lt="324" ct="42" ts="1676636088330" s="true" lb="-14 /submit/firefox-desktop/baseline/1/c7e1dbf5-4293-4ba1-9387-56fcf043df02" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="822" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 17 Feb 2023 12:14:50 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Via: 1.1 google
+Alt-Svc: clear
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+date: Fri, 17 Feb 2023 12:14:45 GMT
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+content-encoding: gzip
+Pragma: no-cache
+Accept: */*
+x-telemetry-agent: Glean/51.8.2 (Rust on Windows)
+Host: incoming.telemetry.mozilla.org
+content-type: application/json; charset=utf-8
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: empty
+Content-Length: 960
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�uR�n�0&#x10;�&#x17;�6F6�K��}���hl&#x6;b�&#x18;�6iQ���c����E&#x16;��̙3��;[�&#x1b;;놙��,�&#x1f;֖Us`!��]�Wd-�E^p�sY�dݪ�E�m!؁��&#x7f;�Q�&#x1c;�&#x10;fG&#x19;`��a�z[�S��!5�&#x10;.��.Z�ڸ�9�a��y&#x4;��&#x19;܈���4��+�j�&#x7;g�&#x4;�=y&#x7;�&#x1e;v�mI����5��g���R�_=]�P�)������P�����&#x12;��Ъ�j���&#x3;3����V&#x11;&apos;�b�[&#x17;�K�W;%�RfM�S&#x1f;X�g0i#r�D)&#x1b;Q=.{&#x1b;�	��&gt;�] )E�&#x14;&#x3;o�6���O&#x13;�5UW)��$&#x17;�m]?����k���`&#xe;&apos;
+z�&#x8;!I�3�z�	P&#x1e;k���s&#x12;���������&#x10;;���d�sQsY=&#x1d;�&#x10;&quot;�V7&#x6;&#x6;�&#x15;�U�p%&#x1;ȍ&#x1;�Ե9V�u�KF�%�����@&#x13;��3��ȷ&#x14;&#x1a;���n0Y�J&#x3;ei+C&#x17;V}�1b�[N�L�&#x11;&apos;y`&#xe;_��m�&#x1b;�	�=i�&gt;C7&#x88;���v���B�eN&#x5;i�������&#x2;�y��&#x14;8I�&#x10;�@���&amp;&#x1c;�l�s&#x1d;���2�ʡ�҆+��&#x1f;�0�JT&#x3;���^�&#x0;-��?�&#x3;&#x0;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/c7e1dbf5-4293-4ba1-9387-56fcf043df02</java.net.URL>
+</httpSample>
+<httpSample t="6064" it="0" lt="0" ct="814" ts="1676636085373" s="false" lb="-6 /" rc="Non HTTP response code: org.apache.http.NoHttpResponseException" rm="Non HTTP response message: push.services.mozilla.com:443 failed to respond" tn="" dt="text" de="" by="1708" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: Gz8HxB2nPQ0+JblVXVIuhw==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: websocket
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.NoHttpResponseException: push.services.mozilla.com:443 failed to respond&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="6015" it="0" lt="0" ct="768" ts="1676636096523" s="false" lb="-15 /" rc="Non HTTP response code: org.apache.http.NoHttpResponseException" rm="Non HTTP response message: push.services.mozilla.com:443 failed to respond" tn="" dt="text" de="" by="1708" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: websocket
+Sec-WebSocket-Protocol: push-notification
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.5
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: push.services.mozilla.com
+Sec-WebSocket-Key: BGKSxagYnEo0PdjYkWzuQQ==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Sec-Fetch-Dest: websocket
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.NoHttpResponseException: push.services.mozilla.com:443 failed to respond&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://push.services.mozilla.com/</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="3" ct="1" ts="1676636107026" s="true" lb="-16 /WebTours/index.htm" rc="200" rm="OK" tn="" dt="text" de="" by="627" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 12:15:07 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 11:20:22 GMT
+ETag: &quot;5000000042504-16e-4ddb1559ac980&quot;
+Accept-Ranges: bytes
+Content-Length: 366
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.103:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+&lt;frameset rows = &quot;65,*&quot; border=&quot;1&quot; bordercolor=&quot;#E0E7F1&quot;&gt;
+&lt;frame name=&quot;header&quot; src=&quot;header.html&quot; scrolling=&quot;no&quot; noresize=&quot;noresize&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot;/&gt;
+&lt;frame name=&quot;body&quot; src=&quot;/cgi-bin/welcome.pl?signOff=true&quot; scrolling=&quot;auto&quot; noresize=&quot;noresize&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; /&gt;
+&lt;/frameset&gt;
+&lt;/HEAD&gt;
+&lt;/HTML&gt;
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.103:1080/WebTours/index.htm</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="7" ts="1676636107143" s="true" lb="-17 /WebTours/header.html" rc="200" rm="OK" tn="" dt="text" de="" by="971" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 12:15:07 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 11:20:22 GMT
+ETag: &quot;5000000042441-2c6-4ddb1559ac980&quot;
+Accept-Ranges: bytes
+Content-Length: 710
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.0.103:1080/WebTours/index.htm
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.103:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;HTML xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;HEAD&gt;&lt;/HEAD&gt;
+&lt;BODY bgcolor=&quot;#003366&quot; leftmargin=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; topmargin=&quot;0&quot;&gt;
+		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+		&lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+			&lt;tr&gt;
+				&lt;td align=&quot;left&quot; valign=&quot;middle&quot; width=&quot;50%&quot;&gt;&lt;img src=&quot;images/hp_logo.png&quot; alt=&quot;&quot; height=&quot;45&quot; width=&quot;69&quot; align=&quot;absmiddle&quot; border=&quot;0&quot;/&gt;&lt;img src=&quot;images/webtours.png&quot; alt=&quot;&quot; height=&quot;45&quot; width=&quot;130&quot; align=&quot;absmiddle&quot; border=&quot;0&quot;/&gt;&lt;/td&gt;
+				&lt;td align=&quot;right&quot;&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+	&lt;/BODY&gt;
+&lt;/HTML&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.103:1080/WebTours/header.html</java.net.URL>
+</httpSample>
+<httpSample t="188" it="0" lt="184" ct="1" ts="1676636107143" s="true" lb="-18 /cgi-bin/welcome.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="989" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 12:15:07 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&amp;1676636107; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Thu, 16-Feb-2023 12:15:07 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.0.103:1080/WebTours/index.htm
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.103:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ ---&gt;
+
+&lt;html&gt;
+&lt;title&gt;Web Tours&lt;/title&gt;
+   &lt;!-- Frame Set --&gt;
+   &lt;frameset cols=&quot;160,*&quot; border=&quot;1&quot; frameborder=&quot;1&quot;&gt;
+      &lt;!-- Navigation Frame --&gt;
+      &lt;frame src=&quot;nav.pl?in=home&quot; name=&quot;navbar&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+      &lt;!-- Home Frame --&gt;
+      &lt;frame src=&quot;/WebTours/home.html&quot; name=&quot;info&quot; marginheight=&quot;2&quot; marginwidth=&quot;2&quot; 
+            noresize=&quot;noresize&quot; scrolling=&quot;auto&quot;/&gt;
+   &lt;/frameset&gt;
+&lt;/html&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=true</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="3" ct="1" ts="1676636107370" s="true" lb="-23 /WebTours/home.html" rc="200" rm="OK" tn="" dt="text" de="" by="1623" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 12:15:07 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 11:20:22 GMT
+ETag: &quot;5000000042442-551-4ddb1559ac980&quot;
+Accept-Ranges: bytes
+Content-Length: 1361
+Connection: close
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.103:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;HTML&gt;
+&lt;HEAD&gt;
+	&lt;title&gt;Web Tours&lt;/title&gt;
+&lt;/HEAD&gt;
+&lt;style&gt;
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #003366}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+&lt;/style&gt;
+&lt;body bgcolor=&quot;#e0e7f1&quot;&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;br/&gt;
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;blockquote&gt;
+&lt;H1&gt;&lt;b&gt;Web Tours&lt;/b&gt;&lt;/H1&gt;
+Welcome to the Web Tours site.
+&lt;br/&gt;
+To make reservations,please enter your account information to the left.
+&lt;br/&gt;
+If you haven&apos;t registered yet, &lt;A href=&quot;/cgi-bin/login.pl?username=&amp;amp;password=&amp;amp;getInfo=true&quot; &gt;&lt;B&gt;sign up now&lt;/B&gt;&lt;/A&gt; to get access to all our resources.
+&lt;br/&gt;
+To configure the server options, use &lt;A href=&quot;/cgi-bin/admin.pl&quot; target=&quot;body&quot; &gt;&lt;b&gt;administration&lt;/b&gt;&lt;/A&gt; link.
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;small&gt;
+This product uses parts of the SMT Kernel, Copyright (c) 1991-99 &lt;A href=&quot;http://www.imatix.com&quot; target=&quot;new&quot;&gt;&lt;B&gt;&lt;small&gt;iMatix Corporation&lt;/small&gt;&lt;/B&gt;&lt;/A&gt; 
+&lt;/small&gt;
+&lt;/blockquote&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/HTML&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1676636107</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.103:1080/WebTours/home.html</java.net.URL>
+</httpSample>
+<httpSample t="146" it="0" lt="143" ct="2" ts="1676636107360" s="true" lb="-22 /cgi-bin/nav.pl" rc="200" rm="OK" tn="" dt="text" de="ISO-8859-1" by="1721" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-90O1LSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 12:15:07 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 16 Feb 2023 12:15:07 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://192.168.0.103:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.103:1080
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html
+	PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+	 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot; xml:lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Web Tours Navigation Bar&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#E0E7F1&quot;&gt;
+&lt;style&gt;
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+&lt;/style&gt;
+&lt;form method=&quot;post&quot; action=&quot;/cgi-bin/login.pl&quot; target=&quot;body&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;userSession&quot; value=&quot;135814.994491697zQifQiDpHHQVzzzHtVQVfpQAczHf&quot;/&gt;
+&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Username&lt;/small&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;username&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;small&gt;&amp;nbsp;Password&lt;/small&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot; size=&quot;14&quot; maxlength=&quot;14&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;image&quot; name=&quot;login&quot; value=&quot;Login&quot; alt=&quot;Login&quot; border=&quot;1&quot; 
+src=&quot;/WebTours/images/mer_login.gif&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;input type=&quot;hidden&quot; name=&quot;JSFormSubmit&quot; value=&quot;off&quot;/&gt;
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSO=SID&amp;1676636107</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.103:1080/cgi-bin/nav.pl?in=home</java.net.URL>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1677023327717,3913,K6ProductCheckout_T01_HomePage,200,"Number of samples in transaction : 5, number of failing samples : 0",K6ProductCheckout 1-1,true,,209847,1,1,0,1,0,DESKTOP-90O1LSF
+1677023331641,4164,K6ProductCheckout_T02_SelectProduct,200,"Number of samples in transaction : 4, number of failing samples : 0",K6ProductCheckout 1-1,true,,207986,1,1,0,1,0,DESKTOP-90O1LSF
+1677023335810,1567,K6ProductCheckout_T03_AddToCart,200,"Number of samples in transaction : 2, number of failing samples : 0",K6ProductCheckout 1-1,true,,70010,1,1,0,1,0,DESKTOP-90O1LSF
+1677023337380,810,K6ProductCheckout_T04_ViewCart,200,"Number of samples in transaction : 2, number of failing samples : 0",K6ProductCheckout 1-1,true,,103957,1,1,0,1,0,DESKTOP-90O1LSF
+1677023338192,2096,K6ProductCheckout_T05_CancelOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",K6ProductCheckout 1-1,true,,106283,1,1,0,1,0,DESKTOP-90O1LSF
